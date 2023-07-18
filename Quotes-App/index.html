@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+    <div class="d-flex justify-content-center w-100 vh-100 p-3 ">
+        <div class=" text-center">
+            <h1 class="fw-bold p-5">Quote of the Day</h1>
+            <p class=" p-2">Press the button below to recieve a random quote!</p>
+            <button class ="btn btn-close-white btn-dark border-black" onclick="generateQuote();">New Quote</button>
+            <p id="quote"></p>
+            <p id="writer"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
